@@ -1,0 +1,16 @@
+Source: toriptables
+Section: security
+Priority: optional
+Maintainer: Vitex <info@vitexsoftware.cz>
+Build-Depends: debhelper (>=11~), dh-python, python3-all, inkscape
+Standards-Version: 4.1.4
+Homepage: https://github.com/ruped24/toriptables3
+X-Python3-Version: >= 3.2
+
+Package: toriptables
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${python3:Depends}, libpython2.7-stdlib, libpython2.7-minimal, tor, iptables
+Description: Route all traffic through tor.
+ Tor Iptables script is an anonymizer that sets up iptables and tor
+ to route all services and traffic including DNS through the Tor network.

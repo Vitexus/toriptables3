@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="console-application">
+  <id>io.github.vitexsus.toriptables3</id>
+  
+  <name>toriptables2</name>
+  <summary>Route all traffic through tor.</summary>
+  
+  <metadata_license>MIT</metadata_license>
+  <project_license>NLPL</project_license>
+  
+  <description>
+    <p>
+      Tor Iptables script is an anonymizer that sets up iptables and tor  to route all services and traffic including DNS through the Tor network.
+    </p>
+  </description>
+  
+  <icon type="stock">toriptables2</icon>
+  
+  <categories>
+    <category>Utility</category>
+    <category>Adult</category>
+  </categories>
+  
+  <provides>
+    <binary>toriptables3.py</binary>
+  </provides>
+</component>
