@@ -10,7 +10,7 @@ X-Python3-Version: >= 3.2
 Package: toriptables
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, ${python3:Depends}, libpython2.7-stdlib, libpython2.7-minimal, tor, iptables
+Depends: ${misc:Depends}, ${python3:Depends}, libpython3-stdlib, python3-minimal, tor, iptables
 Description: Route all traffic through tor.
  Tor Iptables script is an anonymizer that sets up iptables and tor
  to route all services and traffic including DNS through the Tor network.
